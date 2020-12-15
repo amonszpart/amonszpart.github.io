@@ -1,0 +1,87 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Aron: Main page details table first column style*/
+.info-table {
+	vertical-align: top;
+}
+
+.div-news-row {
+  padding-bottom: 1em;
+}
+
+.div-news-date {
+    vertical-align: middle;
+}
+
+.div-news-icon {
+    vertical-align: middle;
+    padding-right: 2px !important;
+}
+
+.div-news-entry {
+    vertical-align: middle !important;
+    font-size: larger;
+}
+
+.table-news-tr > td {
+	padding-bottom: 1em;
+}
+
+.table-news-td-date {
+    vertical-align: middle;
+    padding-right: 12pt;
+    min-width: 100px;
+}
+
+.table-news-td-icon {
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 12pt;
+}
+
+.table-news-td-entry {
+    vertical-align: middle !important;
+    font-size: larger;
+}
+
+.div-publication-img {
+  vertical-align: middle !important;
+  padding-top: 10px;
+}
+
+.div-publication-entry {
+    vertical-align: middle !important;
+    font-size: larger;
+    padding-top: 10px;
+}
+
+.paper-icon {
+    max-width: 160px;
+    max-height: 100px;
+}
+
+body {
+    padding-top: 220px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  body { padding-top: 40px; }
+}
+
+.my-row-a {
+  background-color:#fff;
+}
+
+.my-row-b {
+  background-color:#eee;
+}
+
+.my-center {
+  margin: 0 auto;
+  max-width: 1280px;
+}
